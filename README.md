@@ -21,4 +21,4 @@ Background and Pending Exception
 Parameterizing/repeating test cases from feature classes
 Implementing/deciding Tags
 Running all/limited testsRunning all/limited tests
-Parallel testing
+Parallel testing added
