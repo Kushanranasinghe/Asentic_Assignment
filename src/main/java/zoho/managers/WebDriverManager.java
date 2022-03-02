@@ -17,6 +17,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 
@@ -35,7 +36,7 @@ public class WebDriverManager {
 		// init the properties file
 		try {
 			prop=new Properties();
-			System.out.println(System.getProperty("user.dir"));
+			//System.out.println(System.getProperty("user.dir"));
 			String path = System.getProperty("user.dir")+"/src/test/resources/project.properties";
 			FileInputStream fs = new FileInputStream(path);
 			prop.load(fs);		
@@ -272,7 +273,6 @@ public class WebDriverManager {
 		}
 	}
 
-
 	public void clickMenuItem(String country) {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String searchText = country;
@@ -294,6 +294,24 @@ public class WebDriverManager {
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				break;
 			}
+		}
+	}
+
+	public void clickDropdown(String selector){
+		Select dropdown = new Select(driver.findElement(By.xpath("//*[@class='product_sort_container']")));
+		dropdown.selectByVisibleText(selector);
+	}
+
+	public void selectClickElementFromList(int listNo){
+		List<WebElement> elm = driver.findElements(getLocator("addToCart_xp"));
+		int elmSize = elm.size();
+		for(int j=listNo;j>0;j--) {
+			elm.get(elmSize-(j)).click();
+		}
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
 		}
 	}
 }

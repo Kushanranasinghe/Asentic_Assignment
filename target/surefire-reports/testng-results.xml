@@ -1,72 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test runner" duration-ms="1162" started-at="2021-10-28T06:55:01 IST" finished-at="2021-10-28T06:55:02 IST">
+  <suite name="Test runner" duration-ms="18898" started-at="2022-03-02T12:00:24 IST" finished-at="2022-03-02T12:00:43 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@eec5a4a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@2b2948e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Cucumber Runner" duration-ms="1162" started-at="2021-10-28T06:55:01 IST" finished-at="2021-10-28T06:55:02 IST">
+    <test name="Cucumber Runner" duration-ms="18898" started-at="2022-03-02T12:00:24 IST" finished-at="2022-03-02T12:00:43 IST">
       <class name="zoho.runner.MyRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:zoho.runner.MyRunner@eec5a4a]" name="setUpClass" is-config="true" duration-ms="373" started-at="2021-10-28T06:55:01 IST" finished-at="2021-10-28T06:55:01 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:zoho.runner.MyRunner@2b2948e2]" name="setUpClass" is-config="true" duration-ms="361" started-at="2022-03-02T12:00:24 IST" finished-at="2022-03-02T12:00:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@eec5a4a]" name="runScenario" duration-ms="690" started-at="2021-10-28T06:55:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-28T06:55:02 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@2b2948e2]" name="runScenario" duration-ms="18435" started-at="2022-03-02T12:00:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-02T12:00:43 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Deletion of the lead"]]>
+                <![CDATA["Verify user can buy an item from saucedemo"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Managing Leads]"]]>
+                <![CDATA["Optional[Test automation for saucedemo]"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at zoho.managers.WebDriverManager.openBrowser(WebDriverManager.java:53)
-at zoho.pages.HomePage.load(HomePage.java:16)
-at zoho.teststeps.Session.zohoLogin(Session.java:23)
-at ✽.I am logged in zoho.com(file:///home/shammika/Downloads/testproject3/Selenium%20Code/Cucumber/ZOHOCucumberPOM/src/test/resources/zoho/leads.feature:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@eec5a4a]" name="runScenario" duration-ms="690" started-at="2021-10-28T06:55:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-28T06:55:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Creation of a Lead"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Managing Leads]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at zoho.managers.WebDriverManager.openBrowser(WebDriverManager.java:53)
-at zoho.pages.HomePage.load(HomePage.java:16)
-at zoho.teststeps.Session.zohoLogin(Session.java:23)
-at ✽.I am logged in zoho.com(file:///home/shammika/Downloads/testproject3/Selenium%20Code/Cucumber/ZOHOCucumberPOM/src/test/resources/zoho/leads.feature:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:zoho.runner.MyRunner@eec5a4a]" name="tearDownClass" is-config="true" duration-ms="71" started-at="2021-10-28T06:55:02 IST" finished-at="2021-10-28T06:55:02 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:zoho.runner.MyRunner@2b2948e2]" name="tearDownClass" is-config="true" duration-ms="62" started-at="2022-03-02T12:00:43 IST" finished-at="2022-03-02T12:00:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

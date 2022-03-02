@@ -1,5 +1,12 @@
-zoho/teststeps/Session.class
+zoho/teststeps/lassana/LassanaProducts.class
+zoho/teststeps/cna/CnaInternational.class
 zoho/context/TestContext.class
 zoho/runner/MyRunner.class
-zoho/teststeps/TopMenu.class
-zoho/teststeps/Leads.class
+zoho/teststeps/cna/Session.class
+zoho/teststeps/cna/TopMenu.class
+zoho/teststeps/saucedemo/SauceDemo.class
+zoho/teststeps/amazon/AmazonSearchResult.class
+zoho/teststeps/cna/Landing.class
+zoho/teststeps/lassana/LassanaHome.class
+zoho/teststeps/amazon/AmazonHome.class
+zoho/teststeps/cna/CnaHome.class

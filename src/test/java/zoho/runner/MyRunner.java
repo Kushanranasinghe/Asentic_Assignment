@@ -7,9 +7,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         //features = "@rerun/failed_scenarios.txt",
-		 features = "src/test/resources/featureFiles",
-         glue = {"zoho.teststeps"},
-        //tags = "@Scenario1",
+		 features = "src/test/resources/featureFiles/saucedemo",
+         glue = {"zoho.teststeps.saucedemo"},
+        tags = "@saucedemo_buy",
          plugin = { "html:target/cucumber-reports.html","rerun:rerun/failed_scenarios.txt"},
          monochrome = false,
          dryRun = false

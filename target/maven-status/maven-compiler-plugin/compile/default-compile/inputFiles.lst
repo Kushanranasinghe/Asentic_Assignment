@@ -1,12 +1,19 @@
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/HomePage.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/CreateLeadPage.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/LeadDescriptionPage.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/reports/ExtentManager.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/teststeps/data/LeadData.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/CRMHomePage.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/managers/Temp.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/TopMenuComponent.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/managers/PageObjectManager.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/managers/WebDriverManager.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/LoginPage.java
-/home/shammika/Downloads/testproject3/Selenium Code/Cucumber/ZOHOCucumberPOM/src/main/java/zoho/pages/LeadsDetailPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/managers/WebDriverManager.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/cna/CnaInternationalPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/teststeps/data/LeadData.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/lassana/LassanaProductPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/cna/HomePage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/cna/LoginPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/reports/ExtentManager.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/cna/TopMenuComponent.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/cnaHomePage/ValidateStriyOfHeadline.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/lassana/LassanaHomePage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/amazon/AmazonSearchResultPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/saucedemo/SauceDemoLoginPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/cna/CnaHomePage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/managers/Temp.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/managers/PageObjectManager.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/amazon/AmazoneHomePage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/saucedemo/SauceDemoHomePage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/saucedemo/SauceDemoCartPage.java
+/home/shammika/Downloads/testproject3/Selenium_Code/Cucumber/CNACucumberProject/src/main/java/zoho/pages/cna/CnaNewsItemPage.java
